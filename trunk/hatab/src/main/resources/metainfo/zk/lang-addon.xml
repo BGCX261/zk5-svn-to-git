@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language-addon>
+	<addon-name>hatab</addon-name>
+	<language-name>xul/html</language-name>
+	
+	<version>
+		<version-class>org.zkoss.hatab.Version</version-class>
+		<version-uid>0.8.0</version-uid>
+		<zk-version>5.0.4</zk-version><!-- or later -->
+	</version>
+	
+	<component>
+		<component-name>horbox</component-name>
+		<component-class>org.zkoss.hatab.Horbox</component-class>
+		<widget-class>hatab.Horbox</widget-class>
+		<mold>
+			<mold-name>default</mold-name>
+			<mold-uri>mold/horbox.js</mold-uri>
+			<css-uri>css/hatab.css.dsp</css-uri>
+		</mold>
+	</component>
+	
+	<component>
+		<component-name>horpanel</component-name>
+		<component-class>org.zkoss.hatab.Horpanel</component-class>
+		<widget-class>hatab.Horpanel</widget-class>
+		<mold>
+			<mold-name>default</mold-name>
+			<mold-uri>mold/horpanel.js</mold-uri>
+			<css-uri>css/hatab.css.dsp</css-uri>
+		</mold>
+	</component>
+	
+</language-addon>
